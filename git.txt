@@ -3,4 +3,4 @@ Wellcome
 My Web
 
 1. View Profile
-2. View Courses
+2. Sing Up
