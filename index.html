@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Jonathan's code</title>  <style>
+    * {
+      box-sizing: border-box;
+      font-weight: bold;
+    }
+
+    body {
+      margin: 0;
+      background-color: #bbb8b8;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #0f1724;
+    }
+
+    .logo a {
+      color: #e2e8f0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .Choupalo {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .Choupalo a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .Choupalo a:hover {
+      color: #22d3ee;
+    }
+
+    .ctn {
+      min-height: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 30px 20px;
+      flex-wrap: wrap;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #000000;
+      background-color: pink;
+      height: 300px;
+      width: 200px;
+      border-radius: 20px;
+      padding: 15px;
+    }
+
+    h3 {
+      color: #ffffff;
+      padding: 5px 12px;
+      border: 2px solid #000000;
+      background-color: #5f86c5;
+      border-radius: 10px;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    button {
+      background-color: #8b5cf6;
+      color: #ffffff;
+      border: 2px solid #6366f1;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 8px 15px;
+    }
+
+    .btn2:hover {
+      background-color: #22d3ee;
+      color: #101827;
+      border: 2px solid #67e8f9;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 1rem;
+      }
+
+      .Choupalo {
+        gap: 1rem;
+      }
+
+      .Choupalo a {
+        font-size: 0.9rem;
+      }
+
+      .logo a {
+        font-size: 1.2rem;
+      }
+    }
+
+  @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .Choupalo {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .Choupalo a {
+        font-size: 0.85rem;
+      }
+
+      .ctn {
+        flex-direction: column;
+        min-height: auto;
+        padding: 25px 10px;
+      }
+
+      .cards {
+        width: 90%;
+        max-width: 300px;
+        height: 280px;
+      }
+    }
+
+    @media (max-width: 350px) {
+      .Choupalo {
+        gap: 8px;
+      }
+
+      .Choupalo a {
+        font-size: 0.75rem;
+      }
+
+      .cards {
+        width: 95%;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="logo">
+    <a href="#">Logo :D</a>
+  </div>  <ul class="Choupalo">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<div class="ctn"> 
+   <div class="cards">
+    <h3>2.99$/7 Days</h3>
+    <p>Premium VPN</p>
+    <p>3 Days +</p>
+    <button class="btn2">Buy Now</button>
+  </div>  <div class="cards">
+    <h3>7.99$/1 Month</h3>
+    <p>Premium VPN</p>
+    <p>15 Days +</p>
+    <button class="btn2">Buy Now</button>
+  </div>  <div class="cards">
+    <h3>29.99$/1 Year</h3>
+    <p>Premium VPN</p>
+    <p>6 Months +</p>
+    <button class="btn2">Buy Now</button>
+  </div>
+</div>
+</body>
+</html>
